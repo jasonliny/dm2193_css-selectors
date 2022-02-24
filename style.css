@@ -1,0 +1,27 @@
+.child {
+  margin-left: 20px;
+}
+.nested-child{
+  margin-left: 30px;
+}
+div {
+  width: 80vw;
+  margin: 2vmin;
+}
+.parent .nested-child {
+  font-size: 2em;
+  width: 70vmin;
+}
+.parent > p {
+  font-size: 3em;
+}
+p:nth-last-of-type(2n) {
+  background-color: lightgrey;
+}
+p:nth-child(odd) {
+  color: green;
+}
+p:first-child, p:last-child {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
